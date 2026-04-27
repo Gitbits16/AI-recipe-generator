@@ -57,38 +57,25 @@ Make sure you have:
 ### Project Structure
 
 personalized_recipe_ai/
-│
-#
 ├── backend/
-#
-|
-#
-│
-#
-├── app.py
-#
-│
-#
-├── ai_engine.py
-│   ├── auth.py
-│   ├── db.py
-│   ├── config.py
-│   └── requirements.txt
-│
+│   ├── app.py                  # Main Flask application
+│   ├── ai_engine.py            # OpenRouter AI integration
+│   ├── auth.py                 # Authentication logic
+│   ├── db.py                   # Database connection & schema
+│   ├── config.py               # Configuration management
+│   └── requirements.txt        # Backend dependencies
 ├── frontend/
-│   ├── Home.py
+│   ├── Home.py                 # Landing page (Login/Register)
 │   ├── pages/
-│   │   ├── 0_Profile.py
-│   │   ├── 1_Explore.py
-│   │   ├── 2_Saved.py
-│   │   ├── 3_Logout.py
-│   │   └── 4_History.py
-│   └── requirements.txt
-│
-├── .env
-├── .gitignore
-└── README.md
-
+│   │   ├── 0_Profile.py        # User profile settings
+│   │   ├── 1_Explore.py        # Recipe generation
+│   │   ├── 2_Saved.py          # Favorite recipes
+│   │   ├── 3_Logout.py         # Logout
+│   │   └── 4_History.py        # Recipe history
+│   └── requirements.txt        # Frontend dependencies
+├── .env                        # Environment variables (create this)
+├── .gitignore                  # Git ignore file
+└── README.md                   # This file
 ---
 ### API Endpoints
 
