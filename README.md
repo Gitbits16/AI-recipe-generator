@@ -58,12 +58,18 @@ Make sure you have:
 
 personalized_recipe_ai/
 │
----
+#
 ├── backend/
----
+#
 |
-│   ├── app.py
-│   ├── ai_engine.py
+#
+│
+#
+├── app.py
+#
+│
+#
+├── ai_engine.py
 │   ├── auth.py
 │   ├── db.py
 │   ├── config.py
