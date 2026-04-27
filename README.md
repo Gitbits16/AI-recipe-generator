@@ -57,14 +57,14 @@ Make sure you have:
 ### Project Structure
 
 personalized_recipe_ai/
-├── backend/ ---
-│   ---├── app.py                  # Main Flask application
-│   ---├── ai_engine.py            # OpenRouter AI integration
-│   ---├── auth.py                 # Authentication logic
-│   ---├── db.py                   # Database connection & schema
-│   ---├── config.py               # Configuration management
-│   ---└── requirements.txt        # Backend dependencies
-├── frontend/ ---
+├── backend/
+│   ├── app.py                  # Main Flask application
+│   ├── ai_engine.py            # OpenRouter AI integration
+│   ├── auth.py                 # Authentication logic
+│   ├── db.py                   # Database connection & schema
+│   ├── config.py               # Configuration management
+│   └── requirements.txt        # Backend dependencies
+├── frontend/ #
 │   ├── Home.py                 # Landing page (Login/Register)
 │   ├── pages/
 │   │   ├── 0_Profile.py        # User profile settings
