@@ -60,9 +60,7 @@ personalized_recipe_ai/
 
 
 ├── backend/
-
 │
-
 ├── app.py                  # Main Flask application
 
 
