@@ -60,13 +60,18 @@ personalized_recipe_ai/
 
 
 ├── backend/
-│
+
 ├── app.py                  # Main Flask application
 
+|    ├── ai_engine.py            # OpenRouter AI integration
 
-│   ├── ai_engine.py            # OpenRouter AI integration
-│   ├── auth.py                 # Authentication logic
-│   ├── db.py                   # Database connection & schema
+
+│    ├── auth.py                 # Authentication logic
+
+
+│    ├── db.py                   # Database connection & schema
+
+
 │   ├── config.py               # Configuration management
 │   └── requirements.txt        # Backend dependencies
 ├── frontend/ 
